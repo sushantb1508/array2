@@ -1,0 +1,10 @@
+#Given an array C of size N-1 and given that there are numbers from 1 to N with one element missing, the missing number is to be found.
+def count(arr,z):
+    k = sum(arr)
+    print(z-k)
+m = int(input())
+x=[]
+for i in range(0,m+1):
+    x.append(i)
+z=sum(x)
+arr =  list(map(int,input().split()))        
